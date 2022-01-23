@@ -6,3 +6,6 @@
 3. [Factory](https://github.com/efnushtaev/JS-patterns/blob/main/CreationalPatterns/Factory.js) - creating objects from different instances
 4. [Singleton](https://github.com/efnushtaev/JS-patterns/blob/main/CreationalPatterns/Singleton.js) - prevent creating equal object from different parts of app
 5. [Builder](https://github.com/efnushtaev/JS-patterns/blob/main/CreationalPatterns/Builder.js) - multistep creation complex objects
+
+#### Strucutral patterns
+1. [Adapter](https://github.com/efnushtaev/JS-patterns/blob/main/StructuralPatterns/Adapter.js) - use interface with old objects
