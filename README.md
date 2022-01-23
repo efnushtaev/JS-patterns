@@ -1,4 +1,4 @@
-# JS-patterns
+# Designe-patterns
 ## List of main JS patterns
 #### Creational patterns
 1. [Constructor](https://github.com/efnushtaev/JS-patterns/blob/main/CreationalPatterns/Constructor.js) - creating new objects
