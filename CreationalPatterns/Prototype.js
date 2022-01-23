@@ -8,7 +8,7 @@ Object.create();
 // Realization by not main method
 //
 
-function Prototype(proto) {
+function PrototypeStock(proto) {
   this.proto = proto;
 
   this.clone = function () {
@@ -29,10 +29,10 @@ function Stock(exchange)  {
   };
 }
 
-const proto = new Stock("New-York");
-const prototypeStock = new Prototype(proto);
+const newYorkStock = new Stock("New-York");
+const prototypeStock = new PrototypeStock(newYorkStock);
 
-const stock = prototypeStock.clone(proto);
+const stock = prototypeStock.clone(newYorkStock);
 
 console.log(stock.__proto__ === Stock.prototype)
 stock.info();
