@@ -1,6 +1,6 @@
 # JS design-patterns 
 ### Creational patterns
-**These patterns are contrary to the convenient and safe creation of new objects or a family of objects**
+**These patterns are responsible for the convenient and safe creation of new objects or even entire families of objects**
 1. [Constructor](https://github.com/efnushtaev/JS-patterns/blob/main/CreationalPatterns/Constructor.js) - creating new objects
 2. [Prototype](https://github.com/efnushtaev/JS-patterns/blob/main/CreationalPatterns/Prototype.js) - creating clone of objects contains prototype
 3. [Factory](https://github.com/efnushtaev/JS-patterns/blob/main/CreationalPatterns/Factory.js) - creating objects from different instances
@@ -8,5 +8,5 @@
 5. [Builder](https://github.com/efnushtaev/JS-patterns/blob/main/CreationalPatterns/Builder.js) - multistep creation complex objects
 
 ### Structral patterns
-**Эти паттерны отвечают за построение удобных в поддержке иерархий классов**
+**These patterns are responsible for building easy maintain class hierarchies**
 1. [Adapter](https://github.com/efnushtaev/JS-patterns/blob/main/StructuralPatterns/Adapter.js) - use interface with old objects
