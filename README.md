@@ -1,4 +1,4 @@
-# JS-patterns
+# JS design-patterns 
 ## List of main JS patterns
 #### Creational patterns
 **These patterns are contrary to the convenient and safe creation of new objects or a family of objects**
