@@ -10,3 +10,4 @@
 ### Structral patterns
 **These patterns are responsible for building easy maintain class hierarchies**
 1. [Adapter](https://github.com/efnushtaev/JS-patterns/blob/main/StructuralPatterns/Adapter.js) - use interface with old objects
+1. [Bridge](https://github.com/efnushtaev/JS-patterns/blob/main/StructuralPatterns/Bridge.js) - divide objects at two independent kind
