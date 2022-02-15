@@ -17,7 +17,7 @@ class Prototype {
 
     clone.component = Object.create(this.component);
 
-    /* back ref classes should set prototype with spred operator */
+    /** Back ref classes should set prototype with spred operator */
     clone.circularReference = {
       ...this.circularReference,
       prototype: { ...this },
