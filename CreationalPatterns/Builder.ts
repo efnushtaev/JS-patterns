@@ -1,7 +1,7 @@
 /**
  * It is using for multistep creation complex objects
  * 
- **/
+ */
 
  interface Builder {
   producePartA(): void;
@@ -71,7 +71,7 @@ class Director {
 /**
 * Client code
 *
-**/
+*/
 
 function clientCode(director: Director) {
   const builder = new ConcreteBuilder1();

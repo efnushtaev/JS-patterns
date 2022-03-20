@@ -2,7 +2,7 @@
  * It is useful when you need prevent creating equal object and
  * need to have a global point with an acces to the object
  *
- **/
+ */
 
 class Singleton {
   private static instance: Singleton;
@@ -27,7 +27,7 @@ class Singleton {
 /**
  * Client code
  *
- **/
+ */
 
 function clientCode() {
   const s1 = Singleton.getInstance();

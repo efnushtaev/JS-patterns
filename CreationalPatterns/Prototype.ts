@@ -3,7 +3,7 @@
  * It will helpful when you shouldn't depend on classes of the copied object
  * and the copied object has a lot of filled fields
  *
- **/
+ */
 
 class Prototype {
   public primitive: any;
@@ -38,7 +38,7 @@ class ComponentWithBackReference {
 /**
  * Client code
  *
- **/
+ */
 
 function clientCode() {
   const protoOrig = new Prototype();
