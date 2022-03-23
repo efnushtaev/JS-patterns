@@ -3,20 +3,20 @@
  *
  */
 
-abstract class Component {
-  protected parent: Component;
+abstract class ComponentComposite {
+  protected parent: ComponentComposite;
 
-  public setParent(parent: Component) {
+  public setParent(parent: ComponentComposite) {
     this.parent = parent;
   }
 
-  public getParent(): Component {
+  public getParent(): ComponentComposite {
     return this.parent;
   }
 
-  public add(component: Component): void {}
+  public add(component: ComponentComposite): void {}
 
-  public remove(component: Component): void {}
+  public remove(component: ComponentComposite): void {}
 
   public isComposite(): boolean {
     return false;
@@ -29,21 +29,21 @@ abstract class Component {
  * Class Leaf is represents last objects of the structure. Leaf can't have any nested components
  */
 
-class Leaf extends Component {
+class Leaf extends ComponentComposite {
   public operation(): string {
     return "Leaf";
   }
 }
 
-class Composite extends Component {
-  protected children: Component[] = [];
+class Composite extends ComponentComposite {
+  protected children: ComponentComposite[] = [];
 
-  public add(component: Component): void {
+  public add(component: ComponentComposite): void {
     this.children.push(component);
     component.setParent(this);
   }
 
-  public remove(component: Component): void {
+  public remove(component: ComponentComposite): void {
     const componentIndex = this.children.indexOf(component);
     this.children.splice(componentIndex, 1);
 
@@ -69,7 +69,7 @@ class Composite extends Component {
  *
  */
 
-function clientCode(component: Component) {
+function clientCode(component: ComponentComposite) {
   console.log(`RESULT: ${component.operation()}`);
 }
 
@@ -90,7 +90,7 @@ console.log("Client: Now I've got a composite tree:");
 clientCode(tree);
 console.log("");
 
-function clientCode2(component1: Component, component2: Component) {
+function clientCode2(component1: ComponentComposite, component2: ComponentComposite) {
   // ...
 
   if (component1.isComposite()) {

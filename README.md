@@ -9,6 +9,8 @@
 
 ### Structral patterns
 **These patterns are responsible for building easy maintain class hierarchies**
-1. [Adapter](https://github.com/efnushtaev/JS-patterns/blob/main/StructuralPatterns/Adapter.ts) - use interface with old objects
-1. [Bridge](https://github.com/efnushtaev/JS-patterns/blob/main/StructuralPatterns/Bridge.ts) - divide objects at two independent kind
-1. [Composite](https://github.com/efnushtaev/JS-patterns/blob/main/StructuralPatterns/Composite.ts) - creating tree-structure
+1. [Adapter](https://github.com/efnushtaev/JS-patterns/blob/main/Structural/Adapter.ts) - use interface with old objects
+2. [Bridge](https://github.com/efnushtaev/JS-patterns/blob/main/Structural/Bridge.ts) - divide objects at two independent kind
+3. [Composite](https://github.com/efnushtaev/JS-patterns/blob/main/Structural/Composite.ts) - creating tree-structure
+4. [Decorator](https://github.com/efnushtaev/JS-patterns/blob/main/Structural/Decorator.ts) - add function-wrapper for new funcionality
+5. [Facade](https://github.com/efnushtaev/JS-patterns/blob/main/Structural/Facade.ts) - creating simple interface for complex structure
